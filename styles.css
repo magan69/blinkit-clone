@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head  {
+
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: white;
+height: 90px;
+flex-wrap: wrap;}
+.head img
+{
+    width: 10%;
+    height: 75%;
+}
+.locate
+{
+    font-size: 18px;
+    font-family:Segoe UI;
+}
+
+
+.login
+{
+font-size: 19px;
+font-family:Segoe UI;
+}
+.srch
+{border: 1px solid black;
+width: 32%;
+height: 40px;
+border-radius: 5px;
+display: flex;
+align-items: center;}
+.cart
+{   width: 9%;
+    padding: 10px;
+    border-radius: 9px;
+    text-align: center;
+    color: white;
+    background-color: rgba(200, 200, 203, 0.769)
+}
